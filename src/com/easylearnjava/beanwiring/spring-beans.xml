@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	">
+
+	<bean id="stdObject" class="com.easylearnjava.beanwiring.Student" autowire="byName">
+		<property name="studentName" value="naveen"></property>
+	</bean>
+	
+	
+	<bean id="javaBook" class="com.easylearnjava.beanwiring.Book">
+		<property name="title" value="head first java"></property>
+	</bean>
+	
+	<bean id="bookObject" class="com.easylearnjava.beanwiring.Book">
+		<property name="title" value="java made easy"></property>
+	</bean>
+	
+	
+	<bean id="carObject" class="com.easylearnjava.beanwiring.Car" autowire="byType">
+	
+	</bean>
+	
+	<bean id="wheelObject" class="com.easylearnjava.beanwiring.Wheel">
+		<property name="name" value="Bridge Stone"></property>
+	</bean>
+	
+	<!-- <bean id="secondwheelObject" class="com.easylearnjava.beanwiring.Wheel">
+		<property name="name" value="CEAT"></property>
+	</bean> -->
+	
+	<bean id="collegeObject" class="com.easylearnjava.beanwiring.College" autowire="constructor">
+		
+	</bean>
+
+
+</beans>
