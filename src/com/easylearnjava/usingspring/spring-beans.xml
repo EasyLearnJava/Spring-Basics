@@ -13,9 +13,9 @@
 	">
 
 	
-	<bean id="vehicle" class="com.easylearnjava.usingspring.Bike"></bean>
+	<bean id="carObj" class="com.easylearnjava.usingspring.Car"></bean>
 	
-	<bean id="customer" class="com.easylearnjava.usingspring.Traveller"></bean>
+	<bean id="bikeObj" class="com.easylearnjava.usingspring.Bike"></bean>
 	
 	
 

@@ -11,13 +11,17 @@ public class Travel {
 		//Vehicle vehicle = new Bike();
 		
 		ApplicationContext appContext = new ClassPathXmlApplicationContext("com/easylearnjava/usingspring/spring-beans.xml");
-		Vehicle vehicle = (Vehicle) appContext.getBean("vehicle");
-		
+
+		//A bean object with the id carObj will be returned by the spring container 
+		Vehicle vehicle = (Vehicle) appContext.getBean("carObj");		
 		vehicle.rent();
 		vehicle.move();
 		
-		//Traveller t = new Traveller();
-		Traveller t = (Traveller) appContext.getBean("customer");
+		System.out.println();
+		//A bean object with the id bikeObj will be returned by the spring container
+		vehicle = (Vehicle) appContext.getBean("bikeObj");		
+		vehicle.rent();
+		vehicle.move();
 	}
 
 }
