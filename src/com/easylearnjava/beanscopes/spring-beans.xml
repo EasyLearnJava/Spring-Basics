@@ -12,6 +12,9 @@
 	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
 	">
 
+	<!--default scope is singleton  -->
+	<bean id="machineObject" class="com.easylearnjava.beanscopes.Machine" ></bean>
+	
 	<bean id="stdObject" class="com.easylearnjava.beanscopes.Student" scope="prototype"></bean>
 
 </beans>
