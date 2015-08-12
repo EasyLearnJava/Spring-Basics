@@ -12,5 +12,8 @@
 	<classpathentry kind="lib" path="lib/spring-tx-3.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/commons-pool-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
