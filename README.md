@@ -1,6 +1,8 @@
 # Spring-Basics
 This eclipse project explains some basic concepts related to spring framework 
 ***
+*Still working on AOP
+***
 
 * Starting with the package com.easylearnjava.tightcoupling
 This package has three classes 
