@@ -35,7 +35,13 @@ spring-beans.xml
 Instead of directly creating Car and Bike objects directly in Travel class, get the required object from the spring container
 Notice an interface used in Travel class "<b>ApplicationContext</b>"
 
-* Spring ApplicationContext is a <b>Container</b>. The Application Context is spring's more advanced container. Similar to BeanFactory it can load bean definitions, wire beans together and dispense beans upon request.
-
+Spring ApplicationContext is a <b>Container</b>. The Application Context is spring's more advanced container. Similar to BeanFactory it can load bean definitions, wire beans together and dispense beans upon request.
+Application context can perform the following tasks
+```
+MessageSource, providing access to messages in, i18n-style
+Access to resources, such as URLs and files
+Event propagation to beans implementing the ApplicationListener interface
+Loading of multiple (hierarchical) contexts, allowing each to be focused on one particular layer, for example the web layer of an application
+```
 
 * <b>Spring </b> 
