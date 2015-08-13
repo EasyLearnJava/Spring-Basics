@@ -1,7 +1,7 @@
 # Spring-Basics
 This eclipse project explains some basic concepts related to spring framework 
 ***
-*Still working on AOP
+* Still working on AOP module
 ***
 
 * Starting with the package com.easylearnjava.tightcoupling
